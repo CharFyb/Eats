@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="w-full max-w-[1185px] mx-auto flex justify-between items-center pt-[50px] pb-10">
+        <img src="./img/logo.svg" alt="logo">
+        <nav class="max-w-[580px] flex gap-[104px] items-center">
+            <a class="text-[var(--blue)] hover:text-[var(--orange)] font-semibold text-base leading-[28px] tracking-[0.2px]"
+                href="#">Home</a>
+            <a class="text-[var(--blue)] hover:text-[var(--orange)] font-semibold text-base leading-[28px] tracking-[0.2px] "
+                href="#">Product</a>
+            <a class="text-[var(--blue)] hover:text-[var(--orange)] font-semibold text-base leading-[28px] tracking-[0.2px] "
+                href="#">Faq</a>
+            <a class="text-[var(--blue)] hover:text-[var(--orange)] font-semibold text-base leading-[28px] tracking-[0.2px] "
+                href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class=" bg-[url(./img/bg.png)] pt-20 pb-40 bg-no-repeat bg-cover ">
+            <h4 class="font-bold text-2xl leading-[36px] tracking-[0.1px] text-center text-[var(--white)]">Restaurant
+                app</h4>
+            <h1
+                class="popins font-bold  text-[58px] leading-[80px] tracking-[0.2px] text-center text-[var(--white)] my-[10px] max-w-[800px] mx-auto">
+                Why stay hungry
+                when
+                you can order form Eats </h1>
+            <p class="font-medium text-[24px] leading-[38px] tracking-[0.2px] text-center text-[var(--white)]">Order in
+                exchange for hunger</p>
+            <div class="w-full max-w-[539px] mx-auto flex justify-between items-center mt-[54px]">
+                <button
+                    class="py-4 px-[82px] bg-(--orange) font-bold text-[24px] leading-[36px] tracking-[0.1px] text-[var(--white)] rounded-[30px] border-none cursor-pointer">Delivery</button>
+                <button
+                    class="py-4 px-[82px] bg-(--none) font-bold text-[24px] leading-[36px] tracking-[0.1px] text-[var(--white)] rounded-[30px] border border-white cursor-pointer">Menu</button>
+            </div>
+        </section>
+        <section class="w-full max-w-[1105px] mx-auto">
+            <h3 class="popins font-semibold text-[44px] leading-[36px] tracking-[0.1px] pt-[56px] text-center mb-[70px]">How the app works
+            </h3>
+            <div class="w-full max-w-[1105px] mx-auto flex justify-between items-center">
+                <img src="./img/phone1.png" alt="phone">
+                <div class="w-full max-w-[568px] flex flex-col items-start">
+                    <p class="font-bold text-[24px] leading-[36px] tracking-[0.1px] text-[var(--orange)] mb-[7px]">Create an account</p>
+                    <h3 class="font-bold text-[40px] leading-[57px] tracking-[0.2px] text-[var(--blue)]">Create/login to an existing
+                        account to get started</h3>
+                    <p class="font-medium text-[24px] leading-[38px] tracking-[0.2px] text-[#737373]">An account is created with your email
+                        and a desired password</p>
+                </div>
+            </div>
+            <div class="w-full max-w-[1105px] mx-auto flex justify-between items-center mt-[108px] mb-[190px]">
+                <div class="w-full max-w-[568px] flex flex-col items-start">
+                    <p class="font-bold text-[24px] leading-[36px] tracking-[0.1px] text-[var(--orange)] mb-[7px]">Explore varieties</p>
+                    <h3 class="font-bold text-[40px] leading-[57px] tracking-[0.2px] text-[var(--blue)]">Shop for your favorites
+                        meal as e dey hot.</h3>
+                    <p class="font-medium text-[24px] leading-[38px] tracking-[0.2px] text-[#737373]">Shop for your favorite meals or drinks
+                        and enjoy while doing it.</p>
+                </div>
+                <img src="./img/phone2.png" alt="phone">
+            </div>
+        </section>
+        <section class="bg-[url(./img/bg2.png)] bg-no-repeat bg-cover h-[509px] mb-[78px]">
+            <div class="w-full max-w-[860px] mx-auto flex flex-col items-center ">
+                <h3 class="font-bold text-[40px] leading-[57px] tracking-[0.2px] text-center text-white mt-[131px]">Order now.</h3>
+                <p class="font-medium text-[24px] leading-[38px] tracking-[0.2px] text-center text-white mt-[10px] mb-[59px]">Available on your favorite store. Start your premium experience now</p>
+                <div class="w-full max-w-[331px] mx-auto flex justify-between items-center ">
+                    <button class="font-bold text-[16px] leading-[28px] tracking-[0.2px] text-white px-[31px] py-[18px] border-none rounded-[10px] bg-(--orange) cursor-pointer">Playstore</button>
+                    <button class="font-bold text-[16px] leading-[28px] tracking-[0.2px] text-white px-[45px] py-[16px] border border-white rounded-[10px] bg-none cursor-pointer">App store</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="w-full max-w-[1210px] w-full mx-auto flex justify-between items-center mb-[27px]">
+            <img src="./img/logo.svg" alt="logo">
+            <p class="font-bold text-[12px] leading-[18px] tracking-[0.1px] text-right text-[#5C5C5C]">Copywright 2020 Bella Onojie.com</p>
+        </section>
+    </footer>
+</body>
+
+</html>
